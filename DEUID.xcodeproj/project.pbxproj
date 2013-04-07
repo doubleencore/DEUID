@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6924B8551711F349001A2650 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A091707A8790045C4BE /* main.m */; };
+		6924B8561711F349001A2650 /* DEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A0D1707A8790045C4BE /* DEAppDelegate.m */; };
+		6924B8571711F349001A2650 /* DEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A161707A8790045C4BE /* DEViewController.m */; };
+		6924B8581711F349001A2650 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A271707AE020045C4BE /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6924B8591711F349001A2650 /* DECopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F8EB501708DB8E00F2D463 /* DECopyLabel.m */; };
+		6924B85B1711F349001A2650 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69256A231707A8910045C4BE /* AdSupport.framework */; };
+		6924B85C1711F349001A2650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692569FD1707A8790045C4BE /* UIKit.framework */; };
+		6924B85D1711F349001A2650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692569FF1707A8790045C4BE /* Foundation.framework */; };
+		6924B85E1711F349001A2650 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69256A011707A8790045C4BE /* CoreGraphics.framework */; };
+		6924B8601711F349001A2650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69256A061707A8790045C4BE /* InfoPlist.strings */; };
+		6924B8611711F349001A2650 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A0F1707A8790045C4BE /* Default.png */; };
+		6924B8621711F349001A2650 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A111707A8790045C4BE /* Default@2x.png */; };
+		6924B8631711F349001A2650 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A131707A8790045C4BE /* Default-568h@2x.png */; };
+		6924B8641711F349001A2650 /* DEViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69256A181707A8790045C4BE /* DEViewController_iPhone.xib */; };
+		6924B8651711F349001A2650 /* DEViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69256A1B1707A8790045C4BE /* DEViewController_iPad.xib */; };
+		6924B86D17121086001A2650 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A091707A8790045C4BE /* main.m */; };
+		6924B86E17121086001A2650 /* DEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A0D1707A8790045C4BE /* DEAppDelegate.m */; };
+		6924B86F17121086001A2650 /* DEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A161707A8790045C4BE /* DEViewController.m */; };
+		6924B87017121086001A2650 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A271707AE020045C4BE /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6924B87117121086001A2650 /* DECopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F8EB501708DB8E00F2D463 /* DECopyLabel.m */; };
+		6924B87317121086001A2650 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69256A231707A8910045C4BE /* AdSupport.framework */; };
+		6924B87417121086001A2650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692569FD1707A8790045C4BE /* UIKit.framework */; };
+		6924B87517121086001A2650 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692569FF1707A8790045C4BE /* Foundation.framework */; };
+		6924B87617121086001A2650 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69256A011707A8790045C4BE /* CoreGraphics.framework */; };
+		6924B87817121086001A2650 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69256A061707A8790045C4BE /* InfoPlist.strings */; };
+		6924B87917121086001A2650 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A0F1707A8790045C4BE /* Default.png */; };
+		6924B87A17121086001A2650 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A111707A8790045C4BE /* Default@2x.png */; };
+		6924B87B17121086001A2650 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A131707A8790045C4BE /* Default-568h@2x.png */; };
+		6924B87C17121086001A2650 /* DEViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69256A181707A8790045C4BE /* DEViewController_iPhone.xib */; };
+		6924B87D17121086001A2650 /* DEViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69256A1B1707A8790045C4BE /* DEViewController_iPad.xib */; };
 		692569FE1707A8790045C4BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692569FD1707A8790045C4BE /* UIKit.framework */; };
 		69256A001707A8790045C4BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692569FF1707A8790045C4BE /* Foundation.framework */; };
 		69256A021707A8790045C4BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69256A011707A8790045C4BE /* CoreGraphics.framework */; };
@@ -19,9 +49,76 @@
 		69256A171707A8790045C4BE /* DEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A161707A8790045C4BE /* DEViewController.m */; };
 		69256A1A1707A8790045C4BE /* DEViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69256A181707A8790045C4BE /* DEViewController_iPhone.xib */; };
 		69256A1D1707A8790045C4BE /* DEViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69256A1B1707A8790045C4BE /* DEViewController_iPad.xib */; };
+		69256A241707A8910045C4BE /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69256A231707A8910045C4BE /* AdSupport.framework */; };
+		69256A281707AE020045C4BE /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A271707AE020045C4BE /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		692D249D1712126A00A7F446 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A091707A8790045C4BE /* main.m */; };
+		692D249E1712126A00A7F446 /* DEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A0D1707A8790045C4BE /* DEAppDelegate.m */; };
+		692D249F1712126A00A7F446 /* DEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A161707A8790045C4BE /* DEViewController.m */; };
+		692D24A01712126A00A7F446 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A271707AE020045C4BE /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		692D24A11712126A00A7F446 /* DECopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F8EB501708DB8E00F2D463 /* DECopyLabel.m */; };
+		692D24A31712126A00A7F446 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69256A231707A8910045C4BE /* AdSupport.framework */; };
+		692D24A41712126A00A7F446 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692569FD1707A8790045C4BE /* UIKit.framework */; };
+		692D24A51712126A00A7F446 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692569FF1707A8790045C4BE /* Foundation.framework */; };
+		692D24A61712126A00A7F446 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69256A011707A8790045C4BE /* CoreGraphics.framework */; };
+		692D24A81712126A00A7F446 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69256A061707A8790045C4BE /* InfoPlist.strings */; };
+		692D24A91712126A00A7F446 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A0F1707A8790045C4BE /* Default.png */; };
+		692D24AA1712126A00A7F446 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A111707A8790045C4BE /* Default@2x.png */; };
+		692D24AB1712126A00A7F446 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A131707A8790045C4BE /* Default-568h@2x.png */; };
+		692D24AC1712126A00A7F446 /* DEViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69256A181707A8790045C4BE /* DEViewController_iPhone.xib */; };
+		692D24AD1712126A00A7F446 /* DEViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69256A1B1707A8790045C4BE /* DEViewController_iPad.xib */; };
+		692D24B5171212FD00A7F446 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A091707A8790045C4BE /* main.m */; };
+		692D24B6171212FD00A7F446 /* DEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A0D1707A8790045C4BE /* DEAppDelegate.m */; };
+		692D24B7171212FD00A7F446 /* DEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A161707A8790045C4BE /* DEViewController.m */; };
+		692D24B8171212FD00A7F446 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A271707AE020045C4BE /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		692D24B9171212FD00A7F446 /* DECopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F8EB501708DB8E00F2D463 /* DECopyLabel.m */; };
+		692D24BB171212FD00A7F446 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69256A231707A8910045C4BE /* AdSupport.framework */; };
+		692D24BC171212FD00A7F446 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692569FD1707A8790045C4BE /* UIKit.framework */; };
+		692D24BD171212FD00A7F446 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692569FF1707A8790045C4BE /* Foundation.framework */; };
+		692D24BE171212FD00A7F446 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69256A011707A8790045C4BE /* CoreGraphics.framework */; };
+		692D24C0171212FD00A7F446 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69256A061707A8790045C4BE /* InfoPlist.strings */; };
+		692D24C1171212FD00A7F446 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A0F1707A8790045C4BE /* Default.png */; };
+		692D24C2171212FD00A7F446 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A111707A8790045C4BE /* Default@2x.png */; };
+		692D24C3171212FD00A7F446 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A131707A8790045C4BE /* Default-568h@2x.png */; };
+		692D24C4171212FD00A7F446 /* DEViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69256A181707A8790045C4BE /* DEViewController_iPhone.xib */; };
+		692D24C5171212FD00A7F446 /* DEViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69256A1B1707A8790045C4BE /* DEViewController_iPad.xib */; };
+		692D24CD171213B200A7F446 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A091707A8790045C4BE /* main.m */; };
+		692D24CE171213B200A7F446 /* DEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A0D1707A8790045C4BE /* DEAppDelegate.m */; };
+		692D24CF171213B200A7F446 /* DEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A161707A8790045C4BE /* DEViewController.m */; };
+		692D24D0171213B200A7F446 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A271707AE020045C4BE /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		692D24D1171213B200A7F446 /* DECopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F8EB501708DB8E00F2D463 /* DECopyLabel.m */; };
+		692D24D3171213B200A7F446 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69256A231707A8910045C4BE /* AdSupport.framework */; };
+		692D24D4171213B200A7F446 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692569FD1707A8790045C4BE /* UIKit.framework */; };
+		692D24D5171213B200A7F446 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692569FF1707A8790045C4BE /* Foundation.framework */; };
+		692D24D6171213B200A7F446 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69256A011707A8790045C4BE /* CoreGraphics.framework */; };
+		692D24D8171213B200A7F446 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69256A061707A8790045C4BE /* InfoPlist.strings */; };
+		692D24D9171213B200A7F446 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A0F1707A8790045C4BE /* Default.png */; };
+		692D24DA171213B200A7F446 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A111707A8790045C4BE /* Default@2x.png */; };
+		692D24DB171213B200A7F446 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A131707A8790045C4BE /* Default-568h@2x.png */; };
+		692D24DC171213B200A7F446 /* DEViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69256A181707A8790045C4BE /* DEViewController_iPhone.xib */; };
+		692D24DD171213B200A7F446 /* DEViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69256A1B1707A8790045C4BE /* DEViewController_iPad.xib */; };
+		692D24E51712144F00A7F446 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A091707A8790045C4BE /* main.m */; };
+		692D24E61712144F00A7F446 /* DEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A0D1707A8790045C4BE /* DEAppDelegate.m */; };
+		692D24E71712144F00A7F446 /* DEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A161707A8790045C4BE /* DEViewController.m */; };
+		692D24E81712144F00A7F446 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 69256A271707AE020045C4BE /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		692D24E91712144F00A7F446 /* DECopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F8EB501708DB8E00F2D463 /* DECopyLabel.m */; };
+		692D24EB1712144F00A7F446 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69256A231707A8910045C4BE /* AdSupport.framework */; };
+		692D24EC1712144F00A7F446 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692569FD1707A8790045C4BE /* UIKit.framework */; };
+		692D24ED1712144F00A7F446 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692569FF1707A8790045C4BE /* Foundation.framework */; };
+		692D24EE1712144F00A7F446 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69256A011707A8790045C4BE /* CoreGraphics.framework */; };
+		692D24F01712144F00A7F446 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69256A061707A8790045C4BE /* InfoPlist.strings */; };
+		692D24F11712144F00A7F446 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A0F1707A8790045C4BE /* Default.png */; };
+		692D24F21712144F00A7F446 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A111707A8790045C4BE /* Default@2x.png */; };
+		692D24F31712144F00A7F446 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69256A131707A8790045C4BE /* Default-568h@2x.png */; };
+		692D24F41712144F00A7F446 /* DEViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69256A181707A8790045C4BE /* DEViewController_iPhone.xib */; };
+		692D24F51712144F00A7F446 /* DEViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69256A1B1707A8790045C4BE /* DEViewController_iPad.xib */; };
+		69F8EB511708DB8E00F2D463 /* DECopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F8EB501708DB8E00F2D463 /* DECopyLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6924B8691711F349001A2650 /* DEUID copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DEUID copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6924B86A1711F349001A2650 /* DEUID copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DEUID copy-Info.plist"; path = "/Users/jay/Projects/DEUID/DEUID/DEUID copy-Info.plist"; sourceTree = "<absolute>"; };
+		6924B88117121086001A2650 /* DEUID 1 copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DEUID 1 copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6924B88217121087001A2650 /* DEUID 1 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DEUID 1 copy-Info.plist"; path = "/Users/jay/Projects/DEUID/DEUID/DEUID 1 copy-Info.plist"; sourceTree = "<absolute>"; };
 		692569FA1707A8790045C4BE /* DEUID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DEUID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		692569FD1707A8790045C4BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		692569FF1707A8790045C4BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,16 +136,96 @@
 		69256A161707A8790045C4BE /* DEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEViewController.m; sourceTree = "<group>"; };
 		69256A191707A8790045C4BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DEViewController_iPhone.xib; sourceTree = "<group>"; };
 		69256A1C1707A8790045C4BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DEViewController_iPad.xib; sourceTree = "<group>"; };
+		69256A231707A8910045C4BE /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		69256A261707AE020045C4BE /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenUDID.h; path = submodules/OpenUDID/OpenUDID.h; sourceTree = "<group>"; };
+		69256A271707AE020045C4BE /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenUDID.m; path = submodules/OpenUDID/OpenUDID.m; sourceTree = "<group>"; };
+		692D24B11712126A00A7F446 /* DEUID 2 copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DEUID 2 copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		692D24B21712126B00A7F446 /* DEUID 2 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DEUID 2 copy-Info.plist"; path = "/Users/jay/Projects/DEUID/DEUID/DEUID 2 copy-Info.plist"; sourceTree = "<absolute>"; };
+		692D24C9171212FD00A7F446 /* DEUID 3 copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DEUID 3 copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		692D24CA171212FD00A7F446 /* DEUID 3 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DEUID 3 copy-Info.plist"; path = "/Users/jay/Projects/DEUID/DEUID/DEUID 3 copy-Info.plist"; sourceTree = "<absolute>"; };
+		692D24E1171213B200A7F446 /* DEUID 4 copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DEUID 4 copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		692D24E2171213B200A7F446 /* DEUID 4 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DEUID 4 copy-Info.plist"; path = "/Users/jay/Projects/DEUID/DEUID/DEUID 4 copy-Info.plist"; sourceTree = "<absolute>"; };
+		692D24F91712144F00A7F446 /* DEUID 5 copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DEUID 5 copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		692D24FA1712144F00A7F446 /* DEUID 5 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DEUID 5 copy-Info.plist"; path = "/Users/jay/Projects/DEUID/DEUID/DEUID 5 copy-Info.plist"; sourceTree = "<absolute>"; };
+		69F8EB4F1708DB8E00F2D463 /* DECopyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DECopyLabel.h; sourceTree = "<group>"; };
+		69F8EB501708DB8E00F2D463 /* DECopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DECopyLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6924B85A1711F349001A2650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6924B85B1711F349001A2650 /* AdSupport.framework in Frameworks */,
+				6924B85C1711F349001A2650 /* UIKit.framework in Frameworks */,
+				6924B85D1711F349001A2650 /* Foundation.framework in Frameworks */,
+				6924B85E1711F349001A2650 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6924B87217121086001A2650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6924B87317121086001A2650 /* AdSupport.framework in Frameworks */,
+				6924B87417121086001A2650 /* UIKit.framework in Frameworks */,
+				6924B87517121086001A2650 /* Foundation.framework in Frameworks */,
+				6924B87617121086001A2650 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		692569F71707A8790045C4BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69256A241707A8910045C4BE /* AdSupport.framework in Frameworks */,
 				692569FE1707A8790045C4BE /* UIKit.framework in Frameworks */,
 				69256A001707A8790045C4BE /* Foundation.framework in Frameworks */,
 				69256A021707A8790045C4BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692D24A21712126A00A7F446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692D24A31712126A00A7F446 /* AdSupport.framework in Frameworks */,
+				692D24A41712126A00A7F446 /* UIKit.framework in Frameworks */,
+				692D24A51712126A00A7F446 /* Foundation.framework in Frameworks */,
+				692D24A61712126A00A7F446 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692D24BA171212FD00A7F446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692D24BB171212FD00A7F446 /* AdSupport.framework in Frameworks */,
+				692D24BC171212FD00A7F446 /* UIKit.framework in Frameworks */,
+				692D24BD171212FD00A7F446 /* Foundation.framework in Frameworks */,
+				692D24BE171212FD00A7F446 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692D24D2171213B200A7F446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692D24D3171213B200A7F446 /* AdSupport.framework in Frameworks */,
+				692D24D4171213B200A7F446 /* UIKit.framework in Frameworks */,
+				692D24D5171213B200A7F446 /* Foundation.framework in Frameworks */,
+				692D24D6171213B200A7F446 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692D24EA1712144F00A7F446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692D24EB1712144F00A7F446 /* AdSupport.framework in Frameworks */,
+				692D24EC1712144F00A7F446 /* UIKit.framework in Frameworks */,
+				692D24ED1712144F00A7F446 /* Foundation.framework in Frameworks */,
+				692D24EE1712144F00A7F446 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,8 +236,15 @@
 			isa = PBXGroup;
 			children = (
 				69256A031707A8790045C4BE /* DEUID */,
+				69256A251707ADEA0045C4BE /* Submodules */,
 				692569FC1707A8790045C4BE /* Frameworks */,
 				692569FB1707A8790045C4BE /* Products */,
+				6924B86A1711F349001A2650 /* DEUID copy-Info.plist */,
+				6924B88217121087001A2650 /* DEUID 1 copy-Info.plist */,
+				692D24B21712126B00A7F446 /* DEUID 2 copy-Info.plist */,
+				692D24CA171212FD00A7F446 /* DEUID 3 copy-Info.plist */,
+				692D24E2171213B200A7F446 /* DEUID 4 copy-Info.plist */,
+				692D24FA1712144F00A7F446 /* DEUID 5 copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +252,12 @@
 			isa = PBXGroup;
 			children = (
 				692569FA1707A8790045C4BE /* DEUID.app */,
+				6924B8691711F349001A2650 /* DEUID copy.app */,
+				6924B88117121086001A2650 /* DEUID 1 copy.app */,
+				692D24B11712126A00A7F446 /* DEUID 2 copy.app */,
+				692D24C9171212FD00A7F446 /* DEUID 3 copy.app */,
+				692D24E1171213B200A7F446 /* DEUID 4 copy.app */,
+				692D24F91712144F00A7F446 /* DEUID 5 copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +265,7 @@
 		692569FC1707A8790045C4BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				69256A231707A8910045C4BE /* AdSupport.framework */,
 				692569FD1707A8790045C4BE /* UIKit.framework */,
 				692569FF1707A8790045C4BE /* Foundation.framework */,
 				69256A011707A8790045C4BE /* CoreGraphics.framework */,
@@ -92,6 +283,8 @@
 				69256A181707A8790045C4BE /* DEViewController_iPhone.xib */,
 				69256A1B1707A8790045C4BE /* DEViewController_iPad.xib */,
 				69256A041707A8790045C4BE /* Supporting Files */,
+				69F8EB4F1708DB8E00F2D463 /* DECopyLabel.h */,
+				69F8EB501708DB8E00F2D463 /* DECopyLabel.m */,
 			);
 			path = DEUID;
 			sourceTree = "<group>";
@@ -110,12 +303,55 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		69256A251707ADEA0045C4BE /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				69256A261707AE020045C4BE /* OpenUDID.h */,
+				69256A271707AE020045C4BE /* OpenUDID.m */,
+			);
+			name = Submodules;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		692569F91707A8790045C4BE /* DEUID */ = {
+		6924B8531711F349001A2650 /* DEUID 1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69256A201707A8790045C4BE /* Build configuration list for PBXNativeTarget "DEUID" */;
+			buildConfigurationList = 6924B8661711F349001A2650 /* Build configuration list for PBXNativeTarget "DEUID 1" */;
+			buildPhases = (
+				6924B8541711F349001A2650 /* Sources */,
+				6924B85A1711F349001A2650 /* Frameworks */,
+				6924B85F1711F349001A2650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DEUID 1";
+			productName = DEUID;
+			productReference = 6924B8691711F349001A2650 /* DEUID copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6924B86B17121086001A2650 /* DEUID 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6924B87E17121086001A2650 /* Build configuration list for PBXNativeTarget "DEUID 2" */;
+			buildPhases = (
+				6924B86C17121086001A2650 /* Sources */,
+				6924B87217121086001A2650 /* Frameworks */,
+				6924B87717121086001A2650 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DEUID 2";
+			productName = DEUID;
+			productReference = 6924B88117121086001A2650 /* DEUID 1 copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		692569F91707A8790045C4BE /* DEUID 0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69256A201707A8790045C4BE /* Build configuration list for PBXNativeTarget "DEUID 0" */;
 			buildPhases = (
 				692569F61707A8790045C4BE /* Sources */,
 				692569F71707A8790045C4BE /* Frameworks */,
@@ -125,9 +361,77 @@
 			);
 			dependencies = (
 			);
-			name = DEUID;
+			name = "DEUID 0";
 			productName = DEUID;
 			productReference = 692569FA1707A8790045C4BE /* DEUID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		692D249B1712126A00A7F446 /* DEUID 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 692D24AE1712126A00A7F446 /* Build configuration list for PBXNativeTarget "DEUID 3" */;
+			buildPhases = (
+				692D249C1712126A00A7F446 /* Sources */,
+				692D24A21712126A00A7F446 /* Frameworks */,
+				692D24A71712126A00A7F446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DEUID 3";
+			productName = DEUID;
+			productReference = 692D24B11712126A00A7F446 /* DEUID 2 copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		692D24B3171212FD00A7F446 /* DEUID 4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 692D24C6171212FD00A7F446 /* Build configuration list for PBXNativeTarget "DEUID 4" */;
+			buildPhases = (
+				692D24B4171212FD00A7F446 /* Sources */,
+				692D24BA171212FD00A7F446 /* Frameworks */,
+				692D24BF171212FD00A7F446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DEUID 4";
+			productName = DEUID;
+			productReference = 692D24C9171212FD00A7F446 /* DEUID 3 copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		692D24CB171213B200A7F446 /* DEUID 5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 692D24DE171213B200A7F446 /* Build configuration list for PBXNativeTarget "DEUID 5" */;
+			buildPhases = (
+				692D24CC171213B200A7F446 /* Sources */,
+				692D24D2171213B200A7F446 /* Frameworks */,
+				692D24D7171213B200A7F446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DEUID 5";
+			productName = DEUID;
+			productReference = 692D24E1171213B200A7F446 /* DEUID 4 copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		692D24E31712144F00A7F446 /* DEUID 6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 692D24F61712144F00A7F446 /* Build configuration list for PBXNativeTarget "DEUID 6" */;
+			buildPhases = (
+				692D24E41712144F00A7F446 /* Sources */,
+				692D24EA1712144F00A7F446 /* Frameworks */,
+				692D24EF1712144F00A7F446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DEUID 6";
+			productName = DEUID;
+			productReference = 692D24F91712144F00A7F446 /* DEUID 5 copy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,12 +456,44 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				692569F91707A8790045C4BE /* DEUID */,
+				692569F91707A8790045C4BE /* DEUID 0 */,
+				6924B8531711F349001A2650 /* DEUID 1 */,
+				6924B86B17121086001A2650 /* DEUID 2 */,
+				692D249B1712126A00A7F446 /* DEUID 3 */,
+				692D24B3171212FD00A7F446 /* DEUID 4 */,
+				692D24CB171213B200A7F446 /* DEUID 5 */,
+				692D24E31712144F00A7F446 /* DEUID 6 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6924B85F1711F349001A2650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6924B8601711F349001A2650 /* InfoPlist.strings in Resources */,
+				6924B8611711F349001A2650 /* Default.png in Resources */,
+				6924B8621711F349001A2650 /* Default@2x.png in Resources */,
+				6924B8631711F349001A2650 /* Default-568h@2x.png in Resources */,
+				6924B8641711F349001A2650 /* DEViewController_iPhone.xib in Resources */,
+				6924B8651711F349001A2650 /* DEViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6924B87717121086001A2650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6924B87817121086001A2650 /* InfoPlist.strings in Resources */,
+				6924B87917121086001A2650 /* Default.png in Resources */,
+				6924B87A17121086001A2650 /* Default@2x.png in Resources */,
+				6924B87B17121086001A2650 /* Default-568h@2x.png in Resources */,
+				6924B87C17121086001A2650 /* DEViewController_iPhone.xib in Resources */,
+				6924B87D17121086001A2650 /* DEViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		692569F81707A8790045C4BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,9 +507,85 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		692D24A71712126A00A7F446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692D24A81712126A00A7F446 /* InfoPlist.strings in Resources */,
+				692D24A91712126A00A7F446 /* Default.png in Resources */,
+				692D24AA1712126A00A7F446 /* Default@2x.png in Resources */,
+				692D24AB1712126A00A7F446 /* Default-568h@2x.png in Resources */,
+				692D24AC1712126A00A7F446 /* DEViewController_iPhone.xib in Resources */,
+				692D24AD1712126A00A7F446 /* DEViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692D24BF171212FD00A7F446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692D24C0171212FD00A7F446 /* InfoPlist.strings in Resources */,
+				692D24C1171212FD00A7F446 /* Default.png in Resources */,
+				692D24C2171212FD00A7F446 /* Default@2x.png in Resources */,
+				692D24C3171212FD00A7F446 /* Default-568h@2x.png in Resources */,
+				692D24C4171212FD00A7F446 /* DEViewController_iPhone.xib in Resources */,
+				692D24C5171212FD00A7F446 /* DEViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692D24D7171213B200A7F446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692D24D8171213B200A7F446 /* InfoPlist.strings in Resources */,
+				692D24D9171213B200A7F446 /* Default.png in Resources */,
+				692D24DA171213B200A7F446 /* Default@2x.png in Resources */,
+				692D24DB171213B200A7F446 /* Default-568h@2x.png in Resources */,
+				692D24DC171213B200A7F446 /* DEViewController_iPhone.xib in Resources */,
+				692D24DD171213B200A7F446 /* DEViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692D24EF1712144F00A7F446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692D24F01712144F00A7F446 /* InfoPlist.strings in Resources */,
+				692D24F11712144F00A7F446 /* Default.png in Resources */,
+				692D24F21712144F00A7F446 /* Default@2x.png in Resources */,
+				692D24F31712144F00A7F446 /* Default-568h@2x.png in Resources */,
+				692D24F41712144F00A7F446 /* DEViewController_iPhone.xib in Resources */,
+				692D24F51712144F00A7F446 /* DEViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6924B8541711F349001A2650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6924B8551711F349001A2650 /* main.m in Sources */,
+				6924B8561711F349001A2650 /* DEAppDelegate.m in Sources */,
+				6924B8571711F349001A2650 /* DEViewController.m in Sources */,
+				6924B8581711F349001A2650 /* OpenUDID.m in Sources */,
+				6924B8591711F349001A2650 /* DECopyLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6924B86C17121086001A2650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6924B86D17121086001A2650 /* main.m in Sources */,
+				6924B86E17121086001A2650 /* DEAppDelegate.m in Sources */,
+				6924B86F17121086001A2650 /* DEViewController.m in Sources */,
+				6924B87017121086001A2650 /* OpenUDID.m in Sources */,
+				6924B87117121086001A2650 /* DECopyLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		692569F61707A8790045C4BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -181,6 +593,56 @@
 				69256A0A1707A8790045C4BE /* main.m in Sources */,
 				69256A0E1707A8790045C4BE /* DEAppDelegate.m in Sources */,
 				69256A171707A8790045C4BE /* DEViewController.m in Sources */,
+				69256A281707AE020045C4BE /* OpenUDID.m in Sources */,
+				69F8EB511708DB8E00F2D463 /* DECopyLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692D249C1712126A00A7F446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692D249D1712126A00A7F446 /* main.m in Sources */,
+				692D249E1712126A00A7F446 /* DEAppDelegate.m in Sources */,
+				692D249F1712126A00A7F446 /* DEViewController.m in Sources */,
+				692D24A01712126A00A7F446 /* OpenUDID.m in Sources */,
+				692D24A11712126A00A7F446 /* DECopyLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692D24B4171212FD00A7F446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692D24B5171212FD00A7F446 /* main.m in Sources */,
+				692D24B6171212FD00A7F446 /* DEAppDelegate.m in Sources */,
+				692D24B7171212FD00A7F446 /* DEViewController.m in Sources */,
+				692D24B8171212FD00A7F446 /* OpenUDID.m in Sources */,
+				692D24B9171212FD00A7F446 /* DECopyLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692D24CC171213B200A7F446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692D24CD171213B200A7F446 /* main.m in Sources */,
+				692D24CE171213B200A7F446 /* DEAppDelegate.m in Sources */,
+				692D24CF171213B200A7F446 /* DEViewController.m in Sources */,
+				692D24D0171213B200A7F446 /* OpenUDID.m in Sources */,
+				692D24D1171213B200A7F446 /* DECopyLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692D24E41712144F00A7F446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692D24E51712144F00A7F446 /* main.m in Sources */,
+				692D24E61712144F00A7F446 /* DEAppDelegate.m in Sources */,
+				692D24E71712144F00A7F446 /* DEViewController.m in Sources */,
+				692D24E81712144F00A7F446 /* OpenUDID.m in Sources */,
+				692D24E91712144F00A7F446 /* DECopyLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +676,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6924B8671711F349001A2650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DEUID/DEUID-Prefix.pch";
+				INFOPLIST_FILE = "DEUID copy-Info.plist";
+				PRODUCT_NAME = "DEUID copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6924B8681711F349001A2650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DEUID/DEUID-Prefix.pch";
+				INFOPLIST_FILE = "DEUID copy-Info.plist";
+				PRODUCT_NAME = "DEUID copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6924B87F17121086001A2650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DEUID/DEUID-Prefix.pch";
+				INFOPLIST_FILE = "DEUID 1 copy-Info.plist";
+				PRODUCT_NAME = "DEUID 1 copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6924B88017121086001A2650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DEUID/DEUID-Prefix.pch";
+				INFOPLIST_FILE = "DEUID 1 copy-Info.plist";
+				PRODUCT_NAME = "DEUID 1 copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		69256A1E1707A8790045C4BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -226,6 +732,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -241,6 +748,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -258,6 +767,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -266,6 +776,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -294,9 +806,131 @@
 			};
 			name = Release;
 		};
+		692D24AF1712126A00A7F446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DEUID/DEUID-Prefix.pch";
+				INFOPLIST_FILE = "DEUID 2 copy-Info.plist";
+				PRODUCT_NAME = "DEUID 2 copy";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		692D24B01712126A00A7F446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DEUID/DEUID-Prefix.pch";
+				INFOPLIST_FILE = "DEUID 2 copy-Info.plist";
+				PRODUCT_NAME = "DEUID 2 copy";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		692D24C7171212FD00A7F446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DEUID/DEUID-Prefix.pch";
+				INFOPLIST_FILE = "DEUID 3 copy-Info.plist";
+				PRODUCT_NAME = "DEUID 3 copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		692D24C8171212FD00A7F446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DEUID/DEUID-Prefix.pch";
+				INFOPLIST_FILE = "DEUID 3 copy-Info.plist";
+				PRODUCT_NAME = "DEUID 3 copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		692D24DF171213B200A7F446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DEUID/DEUID-Prefix.pch";
+				INFOPLIST_FILE = "DEUID 4 copy-Info.plist";
+				PRODUCT_NAME = "DEUID 4 copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		692D24E0171213B200A7F446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DEUID/DEUID-Prefix.pch";
+				INFOPLIST_FILE = "DEUID 4 copy-Info.plist";
+				PRODUCT_NAME = "DEUID 4 copy";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		692D24F71712144F00A7F446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DEUID/DEUID-Prefix.pch";
+				INFOPLIST_FILE = "DEUID 5 copy-Info.plist";
+				PRODUCT_NAME = "DEUID 5 copy";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		692D24F81712144F00A7F446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DEUID/DEUID-Prefix.pch";
+				INFOPLIST_FILE = "DEUID 5 copy-Info.plist";
+				PRODUCT_NAME = "DEUID 5 copy";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6924B8661711F349001A2650 /* Build configuration list for PBXNativeTarget "DEUID 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6924B8671711F349001A2650 /* Debug */,
+				6924B8681711F349001A2650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6924B87E17121086001A2650 /* Build configuration list for PBXNativeTarget "DEUID 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6924B87F17121086001A2650 /* Debug */,
+				6924B88017121086001A2650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		692569F51707A8790045C4BE /* Build configuration list for PBXProject "DEUID" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -306,13 +940,50 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69256A201707A8790045C4BE /* Build configuration list for PBXNativeTarget "DEUID" */ = {
+		69256A201707A8790045C4BE /* Build configuration list for PBXNativeTarget "DEUID 0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69256A211707A8790045C4BE /* Debug */,
 				69256A221707A8790045C4BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		692D24AE1712126A00A7F446 /* Build configuration list for PBXNativeTarget "DEUID 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692D24AF1712126A00A7F446 /* Debug */,
+				692D24B01712126A00A7F446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		692D24C6171212FD00A7F446 /* Build configuration list for PBXNativeTarget "DEUID 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692D24C7171212FD00A7F446 /* Debug */,
+				692D24C8171212FD00A7F446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		692D24DE171213B200A7F446 /* Build configuration list for PBXNativeTarget "DEUID 5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692D24DF171213B200A7F446 /* Debug */,
+				692D24E0171213B200A7F446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		692D24F61712144F00A7F446 /* Build configuration list for PBXNativeTarget "DEUID 6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692D24F71712144F00A7F446 /* Debug */,
+				692D24F81712144F00A7F446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
