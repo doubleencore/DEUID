@@ -21,6 +21,7 @@
 @property (strong, nonatomic) IBOutlet DECopyLabel *IdentifierForVendorLabel;
 @property (strong, nonatomic) IBOutlet DECopyLabel *CFUUIDLabel;
 @property (strong, nonatomic) IBOutlet DECopyLabel *BundleIDLabel;
+@property (strong, nonatomic) IBOutlet DECopyLabel *NSUUIDLabel;
 
 
 - (IBAction)refreshIDs:(id)sender;

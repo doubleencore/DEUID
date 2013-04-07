@@ -53,6 +53,9 @@
     self.CFUUIDLabel.text = cfuuidString;
     NSLog(@"CFUUID: %@", self.CFUUIDLabel.text);
     
+    self.NSUUIDLabel.text = [[NSUUID UUID] UUIDString];
+    NSLog(@"NSUUID: %@", self.NSUUIDLabel.text);
+    
     self.BundleIDLabel.text = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
     NSLog(@"BundleID: %@", self.BundleIDLabel.text);
 }

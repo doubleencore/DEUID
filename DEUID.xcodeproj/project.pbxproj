@@ -119,7 +119,7 @@
 		6924B86A1711F349001A2650 /* DEUID copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DEUID copy-Info.plist"; path = "/Users/jay/Projects/DEUID/DEUID/DEUID copy-Info.plist"; sourceTree = "<absolute>"; };
 		6924B88117121086001A2650 /* DEUID 1 copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DEUID 1 copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6924B88217121087001A2650 /* DEUID 1 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DEUID 1 copy-Info.plist"; path = "/Users/jay/Projects/DEUID/DEUID/DEUID 1 copy-Info.plist"; sourceTree = "<absolute>"; };
-		692569FA1707A8790045C4BE /* DEUID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DEUID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		692569FA1707A8790045C4BE /* DEUID 0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DEUID 0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		692569FD1707A8790045C4BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		692569FF1707A8790045C4BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		69256A011707A8790045C4BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -251,7 +251,7 @@
 		692569FB1707A8790045C4BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				692569FA1707A8790045C4BE /* DEUID.app */,
+				692569FA1707A8790045C4BE /* DEUID 0.app */,
 				6924B8691711F349001A2650 /* DEUID copy.app */,
 				6924B88117121086001A2650 /* DEUID 1 copy.app */,
 				692D24B11712126A00A7F446 /* DEUID 2 copy.app */,
@@ -363,7 +363,7 @@
 			);
 			name = "DEUID 0";
 			productName = DEUID;
-			productReference = 692569FA1707A8790045C4BE /* DEUID.app */;
+			productReference = 692569FA1707A8790045C4BE /* DEUID 0.app */;
 			productType = "com.apple.product-type.application";
 		};
 		692D249B1712126A00A7F446 /* DEUID 3 */ = {
