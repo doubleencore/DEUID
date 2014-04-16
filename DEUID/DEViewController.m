@@ -9,7 +9,6 @@
 
 #import "DEViewController.h"
 #import <AdSupport/AdSupport.h>
-#include "OpenUDID.h"
 
 
 @implementation DEViewController
@@ -44,9 +43,6 @@
     
     self.IdentifierForVendorLabel.text = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
     NSLog(@"IDFV: %@", self.IdentifierForVendorLabel.text);
-    
-    self.OpenUDIDLabel.text = [OpenUDID value];
-    NSLog(@"OpenUDID: %@", self.OpenUDIDLabel.text);
     
     CFUUIDRef cfuuid = CFUUIDCreate(kCFAllocatorDefault);
     NSString *cfuuidString = (NSString*)CFBridgingRelease(CFUUIDCreateString(kCFAllocatorDefault, cfuuid));

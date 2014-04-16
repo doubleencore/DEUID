@@ -17,7 +17,6 @@
 @property (strong, nonatomic) IBOutlet DECopyLabel *UDIDLabel;
 @property (strong, nonatomic) IBOutlet DECopyLabel *AdvertiserID;
 @property (strong, nonatomic) IBOutlet UISwitch *AdvertiserTrackingEnabledSwitch;
-@property (strong, nonatomic) IBOutlet DECopyLabel *OpenUDIDLabel;
 @property (strong, nonatomic) IBOutlet DECopyLabel *IdentifierForVendorLabel;
 @property (strong, nonatomic) IBOutlet DECopyLabel *CFUUIDLabel;
 @property (strong, nonatomic) IBOutlet DECopyLabel *BundleIDLabel;
